@@ -6,11 +6,18 @@ body {
     font-size: 16px;
 }
 
-.navbar {
+.navbar-custom {
     height: 80px;
-    color: black;
     background-color: #d2b48c;
     font-weight: bold;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #a0522d;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgb(119, 27, 27);
 }
 
 .logo {
