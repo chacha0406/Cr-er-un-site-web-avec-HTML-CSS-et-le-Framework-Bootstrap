@@ -1,0 +1,25 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 16px;
+}
+
+.navbar-custom {
+    height: 80px;
+    background-color: #d2b48c;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #a0522d;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgb(119, 27, 27);
+}
+
+.logo {
+    height: 80px;
+}
