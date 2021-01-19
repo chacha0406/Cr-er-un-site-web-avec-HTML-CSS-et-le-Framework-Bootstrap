@@ -1,0 +1,31 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 16px;
+}
+
+.navbar {
+    height: 80px;
+    color: black;
+    background-color: #d2b48c;
+    font-weight: bold;
+}
+
+.logo {
+    height: 80px;
+}
+
+main > h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #a0522d;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+}
+
+article > h2 {
+    font-size: 2em;
+    color: #a0522d;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+}
