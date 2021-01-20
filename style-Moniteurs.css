@@ -23,3 +23,20 @@ body {
 .logo {
     height: 80px;
 }
+
+img {
+    height: 300px;
+    width: 300x;
+}
+
+main > h1 {
+    padding: 50px;
+    font-size: 4em;
+    text-align: center;
+    color: #a0522d;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+}
+
+.card-body {
+    text-align: center;
+}

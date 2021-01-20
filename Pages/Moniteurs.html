@@ -8,14 +8,17 @@
     <title>Tennis Club de Chacha</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light">
         <!-- Titre de la page -->
         <a class="navbar-brand" href="Index.html">
             <img src="../logo.jpg" alt="logo tennis" class="logo">
         </a>
-        <div class="collapse navbar-collapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Elements du menu -->
-            <ul class="navbar-nav text-center">
+            <ul class="navbar-nav mr-auto">
                 <!-- Elements du menu -->
                 <li class="nav-item">
                     <a class="nav-link" href="Index.html">Accueil</a>
@@ -37,21 +40,24 @@
     </nav>
 </body>
 
-<main>
-    <h1>Nos moniteurs</h1>
-    <div class="card">
+<main class="row">
+    <h1 class="col-12">Nos moniteurs</h1>
+    <div class="col-2"></div>
+    <div class="card col-3">
         <img src="../moniteur 1.jpg" alt="moniteur 1" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">Roger FEDERER</h5>
-            <p class="card-text">Classement 15</br>Moniteur déplômé d'état</p>
+            <p class="card-text">Classement 15</br>Moniteur diplômé d'état</p>
         </div>
     </div>
-    <div class="card">
+    <div class="col-2"></div>
+    <div class="card col-3">
         <img src="../moniteur 2.jpg" alt="moniteur 2" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">Simona HALEP</h5>
-            <p class="card-text">Classement 15/1</br>Moniteur déplômé d'état</p>
+            <p class="card-text">Classement 15/1</br>Moniteur diplômé d'état</p>
         </div>
     </div>
+    <div class="col-2"></div>
 </main>
-    </html>
+</html>
