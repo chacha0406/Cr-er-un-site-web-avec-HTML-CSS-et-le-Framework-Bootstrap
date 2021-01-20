@@ -47,3 +47,9 @@ article > h2 {
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
 }
+
+.col-6 {
+    align-items: center;
+    background : #ffebcd;
+    opacity: 0.9;
+}
