@@ -23,3 +23,29 @@ body {
 .logo {
     height: 80px;
 }
+
+main > h1 {
+    padding: 50px;
+    font-size: 4em;
+    text-align: center;
+    color: #d19249;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+}
+
+main > h2 {
+    padding: 15px;
+    font-size: 3em;
+    color: #a0522d;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+    text-align: center;
+}
+
+main > h3 {
+    font-size: 1.5em;
+    color: #df8106;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
