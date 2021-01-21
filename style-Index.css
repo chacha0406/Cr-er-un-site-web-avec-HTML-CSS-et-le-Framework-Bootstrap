@@ -4,7 +4,7 @@ html {
     font-size: 100%;
 }
 
-html > body {
+html body {
     font-size: 16px;
     font-weight: bold;
     background-image: url(../Code/court_transp.png);
@@ -48,7 +48,7 @@ html > body {
     opacity: 0.9;
 }
 
-article > h2 {
+article h2 {
     padding: 15px;
     font-size: 3em;
     color: #a0522d;
