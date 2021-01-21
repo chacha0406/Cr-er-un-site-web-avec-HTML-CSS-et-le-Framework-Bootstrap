@@ -29,6 +29,11 @@ html > body {
     color: rgb(119, 27, 27);
 }
 
+.navbar-custom .navbar-collapse .navbar-nav .active .nav-link {
+    color: rgb(119, 27, 27);
+    text-decoration: underline;
+}
+
 .logo {
     height: 80px;
 }
