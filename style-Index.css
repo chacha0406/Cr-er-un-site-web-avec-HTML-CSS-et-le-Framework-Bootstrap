@@ -38,12 +38,14 @@ html > body {
     height: 67px;
 }
 
-main > h1 {
+.titre {
     padding: 20px;
     font-size: 4em;
-    text-align: center;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+    text-align: center;
+    background: #ffebcd;
+    opacity: 0.9;
 }
 
 article > h2 {
@@ -54,8 +56,7 @@ article > h2 {
     text-align: center;
 }
 
-.col-6 {
-    align-items: center;
+.articles {
     background : #ffebcd;
     opacity: 0.9;
 }
