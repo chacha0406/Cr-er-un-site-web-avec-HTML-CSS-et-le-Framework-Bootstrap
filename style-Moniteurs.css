@@ -16,7 +16,7 @@ html > body {
 }
 
 .navbar-custom {
-    height: 67px;
+    height: 80px;
     background-color: #d2b48c;
     font-weight: bold;
 }
@@ -35,7 +35,7 @@ html > body {
 }
 
 .logo {
-    height: 80px;
+    height: 67px;
 }
 
 img {
