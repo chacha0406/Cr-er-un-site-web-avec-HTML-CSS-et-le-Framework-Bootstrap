@@ -4,7 +4,7 @@ html {
     font-size: 100%;
 }
 
-html > body {
+html body {
     font-size: 16px;
     font-weight: bold;
     background-image: url(../Code/court_transp.png);
@@ -38,19 +38,23 @@ html > body {
     height: 67px;
 }
 
-img {
+main img {
     height: 300px;
-    width: 300x;
+
 }
 
-main > h1 {
+.titre {
     padding: 20px;
     font-size: 4em;
-    text-align: center;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+    text-align: center;
+    background: #ffebcd;
+    opacity: 0.9;
+    margin-bottom: 50px;
 }
 
 .card-body {
     text-align: center;
 }
+
