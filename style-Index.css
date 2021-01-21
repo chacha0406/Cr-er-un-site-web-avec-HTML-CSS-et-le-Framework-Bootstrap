@@ -35,7 +35,7 @@ html > body {
 }
 
 .logo {
-    height: 80px;
+    height: 67px;
 }
 
 main > h1 {
@@ -51,6 +51,7 @@ article > h2 {
     font-size: 3em;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+    text-align: center;
 }
 
 .col-6 {
