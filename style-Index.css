@@ -16,20 +16,24 @@ html body {
     font-family: 'Merienda', cursive;
 }
 
+/* Couleur de fond, hauteur et texte en gras de la barre de navigation*/
 .navbar-custom {
     height: 80px;
     background-color: #d2b48c;
     font-weight: bold;
 }
 
+/* Couleur des liens de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: #a0522d;
 }
 
+/* Couleur des liens survolés de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
     color: rgb(119, 27, 27);
 }
 
+/* Couleur du lien actif de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .active .nav-link {
     color: rgb(119, 27, 27);
     text-decoration: underline;
@@ -64,4 +68,77 @@ article h2 {
 
 p {
     text-align: justify;
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 840px */
+@media screen and (max-width: 840px) {
+    html body {
+        font-size: 14px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 740px */
+@media screen and (max-width: 740px) {
+    .titre {
+        font-size: 40px;
+    }
+
+    article h2 {
+        font-size: 30px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 540px */
+@media screen and (max-width: 540px) {
+    .titre {
+        font-size: 30px;
+    }
+
+    article h2 {
+        font-size: 20px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 444px */
+@media screen and (max-width: 444px) {
+    .logo {
+        height: 50px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 420px */
+@media screen and (max-width: 420px) {
+    html body {
+        font-size: 13px;
+    }
+
+    .titre {
+        font-size: 25px;
+    }
+
+    article h2 {
+        font-size: 18px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 354px */
+@media screen and (max-width: 354px) {
+    .logo {
+        height: 40px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 350px */
+@media screen and (max-width: 350px) {
+    html body {
+        font-size: 12px;
+    }
+
+    .titre {
+        font-size: 18px;
+    }
+
+    article h2 {
+        font-size: 16px;
+    }
 }

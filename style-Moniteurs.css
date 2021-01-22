@@ -16,20 +16,24 @@ html body {
     font-family: 'Merienda', cursive;
 }
 
+/* Couleur de fond, hauteur et texte en gras de la barre de navigation*/
 .navbar-custom {
     height: 80px;
     background-color: #d2b48c;
     font-weight: bold;
 }
 
+/* Couleur des liens de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: #a0522d;
 }
 
+/* Couleur des liens survolés de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
     color: rgb(119, 27, 27);
 }
 
+/* Couleur du lien actif de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .active .nav-link {
     color: rgb(119, 27, 27);
     text-decoration: underline;
@@ -39,9 +43,8 @@ html body {
     height: 67px;
 }
 
-main img {
-    height: 300px;
-
+div .card {
+    width: 300px;
 }
 
 .titre {
@@ -59,3 +62,52 @@ main img {
     text-align: center;
 }
 
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 949px */
+@media screen and (max-width: 949px) {
+    .titre {
+        font-size: 50px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 763px */
+@media screen and (max-width: 763px) {
+    .titre {
+        font-size: 40px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 619px */
+@media screen and (max-width: 619px) {
+    .titre {
+        font-size: 30px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 474px */
+@media screen and (max-width: 474px) {
+    .titre {
+        font-size: 20px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 444px */
+@media screen and (max-width: 444px) {
+    .logo {
+        height: 50px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 354px */
+@media screen and (max-width: 354px) {
+    .logo {
+        height: 40px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 330px */
+@media screen and (max-width: 330px) {
+    .titre {
+        font-size: 18px;
+    }
+}

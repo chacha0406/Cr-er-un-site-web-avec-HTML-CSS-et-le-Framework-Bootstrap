@@ -16,20 +16,24 @@ html body {
     font-family: 'Merienda', cursive;
 }
 
+/* Couleur de fond, hauteur et texte en gras de la barre de navigation*/
 .navbar-custom {
     height: 80px;
     background-color: #d2b48c;
     font-weight: bold;
 }
 
+/* Couleur des liens de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: #a0522d;
 }
 
+/* Couleur des liens survolés de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
     color: rgb(119, 27, 27);
 }
 
+/* Couleur du lien actif de la barre de navigation*/
 .navbar-custom .navbar-collapse .navbar-nav .active .nav-link {
     color: rgb(119, 27, 27);
     text-decoration: underline;
@@ -44,26 +48,23 @@ html body {
     font-size: 4em;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
-    text-align: center;
     background: #ffebcd;
     opacity: 0.9;
 }
 
 div h2 {
-    padding: 15px;
+    padding-top: 20px;
     font-size: 3em;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
-    text-align: center;
 }
 
 div h3 {
     font-size: 1.5em;
     color: #df8106;
-    text-align: center;
 }
 
-p {
+.titre, h2, h3, p {
     text-align: center;
 }
 
@@ -71,4 +72,97 @@ p {
     align-items: center;
     background : #ffebcd;
     opacity: 0.9;
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 862px */
+@media screen and (max-width: 862px) {
+    .titre {
+        font-size: 40px;
+    }
+
+    div h2 {
+        font-size: 30px;
+    }
+
+    div h3 {
+        font-size: 20px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 550px */
+@media screen and (max-width: 550px) {
+    .titre {
+        font-size: 35px;
+    }
+
+    div h2 {
+        font-size: 25px;
+    }
+
+    div h3 {
+        font-size: 18px;
+    }
+
+    html body {
+        font-size: 14px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 484px */
+@media screen and (max-width: 484px) {
+    .titre {
+        font-size: 30px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 453px */
+@media screen and (max-width: 453px) {
+    .titre {
+        font-size: 25px;
+    }
+
+    div h2 {
+        font-size: 20px;
+    }
+
+    div h3 {
+        font-size: 15px;
+    }
+
+    html body {
+        font-size: 13px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 444px */
+@media screen and (max-width: 444px) {
+    .logo {
+        height: 50px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 384px */
+@media screen and (max-width: 384px) {
+    .titre {
+        font-size: 22px;
+    }
+
+    div h2 {
+        font-size: 16px;
+    }
+
+    div h3 {
+        font-size: 13px;
+    }
+
+    html body {
+        font-size: 12px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 354px */
+@media screen and (max-width: 354px) {
+    .logo {
+        height: 40px;
+    }
 }
