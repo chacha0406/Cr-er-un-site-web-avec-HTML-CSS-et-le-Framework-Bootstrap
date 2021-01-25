@@ -49,8 +49,8 @@ html body {
     opacity: 0.9;
 }
 
-h2 {
-    padding: 15px;
+article h2 {
+    padding-top: 15px;
     font-size: 2em;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
@@ -73,4 +73,59 @@ p a {
 
 p a:hover {
     color: lightseagreen	;
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 800px */
+@media screen and (max-width: 800px) {
+    html body {
+        font-size: 14px;
+    }
+
+    .titre {
+        font-size: 40px;
+    }
+
+    article h2 {
+        font-size: 30px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 500px */
+@media screen and (max-width: 500px) {
+    .titre {
+        font-size: 30px;
+    }
+
+    article h2 {
+        font-size: 20px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 444px */
+@media screen and (max-width: 444px) {
+    .logo {
+        height: 50px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 400px */
+@media screen and (max-width: 400px) {
+    html body {
+        font-size: 13px;
+    }
+
+    .titre {
+        font-size: 25px;
+    }
+
+    article h2 {
+        font-size: 18px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 354px */
+@media screen and (max-width: 354px) {
+    .logo {
+        height: 40px;
+    }
 }

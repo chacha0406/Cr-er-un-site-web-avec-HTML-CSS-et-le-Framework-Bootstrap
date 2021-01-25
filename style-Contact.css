@@ -45,17 +45,15 @@ html body {
     font-size: 4em;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
-    text-align: center;
     background: #ffebcd;
     opacity: 0.9;
 }
 
-h2 {
-    padding: 15px;
+article h2 {
+    padding-top: 15px;
     font-size: 2em;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
-    text-align: center;
 }
 
 .contacts {
@@ -64,6 +62,84 @@ h2 {
     opacity: 0.9;
 }
 
-p {
+.titre, article h2, p {
     text-align: center;
+    word-wrap: break-word;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+    
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 991px */
+@media screen and (max-width: 991px) {
+    .titre {
+        font-size: 40px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 634px */
+@media screen and (max-width: 634px) {
+    html body {
+        font-size: 14px;
+    }
+
+    .titre {
+        font-size: 30px;
+    }
+
+    article h2 {
+        font-size: 20px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 475px */
+@media screen and (max-width: 475px) {
+    .titre {
+        font-size: 25px;
+    }
+
+    article h2 {
+        font-size: 18px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 444px */
+@media screen and (max-width: 444px) {
+    .logo {
+        height: 50px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 403px */
+@media screen and (max-width: 403px) {
+    html body {
+        font-size: 13px;
+    }
+
+    .titre {
+        font-size: 18px;
+    }
+
+    article h2 {
+        font-size: 16px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 354px */
+@media screen and (max-width: 354px) {
+    .logo {
+        height: 40px;
+    }
 }
