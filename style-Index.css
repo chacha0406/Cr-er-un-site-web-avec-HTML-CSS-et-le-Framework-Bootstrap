@@ -54,7 +54,7 @@ html body {
 }
 
 article h2 {
-    padding: 15px;
+    padding-top: 15px;
     font-size: 3em;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
