@@ -18,7 +18,7 @@ html body {
 
 /* Couleur de fond, hauteur et texte en gras de la barre de navigation*/
 .navbar-custom {
-    height: 80px;
+    height: auto;
     background-color: #d2b48c;
     font-weight: bold;
 }
@@ -102,6 +102,10 @@ div .card {
 @media screen and (max-width: 354px) {
     .logo {
         height: 40px;
+    }
+
+    html body {
+        font-size: 13px;
     }
 }
 
