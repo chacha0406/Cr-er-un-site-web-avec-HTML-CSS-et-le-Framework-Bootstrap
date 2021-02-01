@@ -42,7 +42,7 @@ html body {
 
 .titre {
     padding: 20px;
-    font-size: 4em;
+    font-size: 50px;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
     background: #ffebcd;
@@ -51,7 +51,7 @@ html body {
 
 article h2 {
     padding-top: 15px;
-    font-size: 2em;
+    font-size: 40px;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
 }
@@ -82,39 +82,6 @@ article h2 {
     position:absolute;
 }
 
-/* Pour les appareils avec écran et dont la largeur maximale est de 991px */
-@media screen and (max-width: 991px) {
-    .titre {
-        font-size: 40px;
-    }
-}
-
-/* Pour les appareils avec écran et dont la largeur maximale est de 634px */
-@media screen and (max-width: 634px) {
-    html body {
-        font-size: 14px;
-    }
-
-    .titre {
-        font-size: 30px;
-    }
-
-    article h2 {
-        font-size: 20px;
-    }
-}
-
-/* Pour les appareils avec écran et dont la largeur maximale est de 475px */
-@media screen and (max-width: 475px) {
-    .titre {
-        font-size: 25px;
-    }
-
-    article h2 {
-        font-size: 18px;
-    }
-}
-
 /* Pour les appareils avec écran et dont la largeur maximale est de 444px */
 @media screen and (max-width: 444px) {
     .logo {
@@ -122,24 +89,21 @@ article h2 {
     }
 }
 
-/* Pour les appareils avec écran et dont la largeur maximale est de 403px */
-@media screen and (max-width: 403px) {
-    html body {
-        font-size: 12px;
-    }
-
-    .titre {
-        font-size: 18px;
-    }
-
-    article h2 {
-        font-size: 16px;
-    }
-}
-
 /* Pour les appareils avec écran et dont la largeur maximale est de 354px */
 @media screen and (max-width: 354px) {
     .logo {
         height: 40px;
+    }
+
+    html body {
+        font-size: 15px;
+    }
+
+    .titre {
+        font-size: 40px;
+    }
+
+    article h2 {
+        font-size: 30px;
     }
 }

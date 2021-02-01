@@ -45,7 +45,7 @@ html body {
 
 .titre {
     padding: 20px;
-    font-size: 4em;
+    font-size: 50px;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
     background: #ffebcd;
@@ -54,13 +54,14 @@ html body {
 
 div h2 {
     padding-top: 20px;
-    font-size: 3em;
+    font-size: 40px;
     color: #a0522d;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.8);
+    word-wrap: break-word;
 }
 
 div h3 {
-    font-size: 1.5em;
+    font-size: 30px;
     color: #df8106;
 }
 
@@ -74,8 +75,23 @@ div h3 {
     opacity: 0.9;
 }
 
-/* Pour les appareils avec écran et dont la largeur maximale est de 862px */
-@media screen and (max-width: 862px) {
+/* Pour les appareils avec écran et dont la largeur maximale est de 444px */
+@media screen and (max-width: 444px) {
+    .logo {
+        height: 50px;
+    }
+}
+
+/* Pour les appareils avec écran et dont la largeur maximale est de 354px */
+@media screen and (max-width: 354px) {
+    .logo {
+        height: 40px;
+    }
+
+    html body {
+        font-size: 15px;
+    }
+
     .titre {
         font-size: 40px;
     }
@@ -86,83 +102,5 @@ div h3 {
 
     div h3 {
         font-size: 20px;
-    }
-}
-
-/* Pour les appareils avec écran et dont la largeur maximale est de 550px */
-@media screen and (max-width: 550px) {
-    .titre {
-        font-size: 35px;
-    }
-
-    div h2 {
-        font-size: 25px;
-    }
-
-    div h3 {
-        font-size: 18px;
-    }
-
-    html body {
-        font-size: 14px;
-    }
-}
-
-/* Pour les appareils avec écran et dont la largeur maximale est de 484px */
-@media screen and (max-width: 484px) {
-    .titre {
-        font-size: 30px;
-    }
-}
-
-/* Pour les appareils avec écran et dont la largeur maximale est de 453px */
-@media screen and (max-width: 453px) {
-    .titre {
-        font-size: 25px;
-    }
-
-    div h2 {
-        font-size: 20px;
-    }
-
-    div h3 {
-        font-size: 15px;
-    }
-
-    html body {
-        font-size: 13px;
-    }
-}
-
-/* Pour les appareils avec écran et dont la largeur maximale est de 444px */
-@media screen and (max-width: 444px) {
-    .logo {
-        height: 50px;
-    }
-}
-
-/* Pour les appareils avec écran et dont la largeur maximale est de 384px */
-@media screen and (max-width: 384px) {
-    .titre {
-        font-size: 22px;
-    }
-
-    div h2 {
-        font-size: 16px;
-    }
-
-    div h3 {
-        font-size: 13px;
-    }
-
-    html body {
-        font-size: 12px;
-    }
-}
-
-/* Pour les appareils avec écran et dont la largeur maximale est de 354px */
-@media screen and (max-width: 354px) {
-    .logo {
-        height: 40px;
     }
 }
